@@ -10,8 +10,8 @@ function App() {
     <div>
       <h2>Counter App</h2>
       <p>Count: {value}</p>
-      <CustomButton children="increment" func={()=>setvalue(value+1)}/>
-      <CustomButton children="decrement" func={()=>setvalue(value-1)}/>
+      <CustomButton children="Increment" func={()=>setvalue(value+1)}/>
+      <CustomButton children="Decrement" func={()=>setvalue(value-1)}/>
     </div>
   );
 }
